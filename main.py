@@ -86,7 +86,7 @@ class Hero(AnimatedSprite):
 
     def jump(self):
         if self.on_ground:
-            self.velocity_y = -10
+            self.velocity_y = -15
             if sound_enabled:
                 sounds.jump.play()
 
